@@ -1,14 +1,14 @@
+感谢Dai Niu，本repo只是在其基础上修改了样式，兼容各种颜色主题，支持响应式布局（伪）。
 [![](https://vsmarketplacebadge.apphb.com/version-short/niudai.vscode-zhihu.svg)](https://marketplace.visualstudio.com/items?itemName=niudai.vscode-zhihu)
 [![](https://vsmarketplacebadge.apphb.com/downloads-short/niudai.vscode-zhihu.svg)](https://marketplace.visualstudio.com/items?itemName=niudai.vscode-zhihu)
 [![](https://vsmarketplacebadge.apphb.com/rating-short/niudai.vscode-zhihu.svg)](https://marketplace.visualstudio.com/items?itemName=niudai.vscode-zhihu)
-
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/niudai/ImageHost/master/zhihu/vscode-zhihu.png" alt="vscode-zhihu logo" width="200px" /></a>
 </p>
  
 <p align="center">
-<a href="https://github.com/niudai/VSCode-Zhihu">打一颗 ⭐，世界更亮。</a>
+<a href="https://github.com/niudai/VSCode-Zhihu">给原作者打一颗 ⭐，世界更亮。</a>
 </p> 
 
 
