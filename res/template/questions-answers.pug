@@ -7,7 +7,7 @@ html
       include header.pug
     div(class = 'container')
       each answer in answers
-        div 
+        div(class = 'answer-container')
           div(class = 'author') 
             span(class = 'avatar-span')
               a(href = `https://www.zhihu.com/people/${answer.author.url_token}`)

@@ -1,54 +1,152 @@
-body {
-    color: black;
+body{
+  background-color: #6e6e6e12;
 }
-
-header.title {
-    background: white;
-    box-shadow: 0 1px 3px rgba(26,26,26,.1);
-}
-
-svg.Icon.ZhihuLogo.ZhihuLogo--blue.Icon--logo {
-    fill: #0084ff;
-}
-
-img.origin_image.zh-lightbox-thumb {
-    box-shadow: 0px 0px 10px powderblue;
-}
-
-body.vscode-light, body.vscode-dark {
-	background: #f6f6f6;
-}
-
-button#favorite {
-    color: white;
-    background-color: #ff1493;
-}
-
-img.qrcode {
-    box-shadow: 0px 0px 9px rgba(76, 49, 40, 1);
-}
-
-a.internal, a.external {
-    background: hsla(177, 100%, 91%, 0.88);
-    box-shadow: 0 5px 5px wheat;
-}
-
-h1, h2, h3, p, blockquote {
-    /* display: inline; */
-    color: black;
-    /* padding-bottom: 10px; */
-}
-
 p {
-    color: black;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+li {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+blockquote {
+  font-size: 13px;
+  line-height: 25px;
+  padding: 5px;
+  border-radius: 6px;
+}
+.author {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+.avatar-img {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.voteup {
+  /* height:50px; */
+  background-color: #6e6e6e09;
+  padding: 10px;
+  border-radius: 7.5px;
+}
+.pane {
+  display: flex;
+  width: calc(100vw - 30px);
+  justify-content: space-between;
+  align-items: center;
+}
+.pane-con{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.floating{
+backdrop-filter: blur(20px);
+width: 100%;
+position: fixed;
+top:0;
+left: 0;
+background-color:var(--vscode-editor-background);
+}
+.static{
+  color:transparent;
+  background-color: transparent;
+  fill: transparent;
+}
+.author-name {
+  font-size: large;
 }
 
 .container {
-    /* border-style: groove; */
-    background-color: white;
-    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
 }
 
-.header {
-    background-color: white;
+.answer-container {
+  background-color: var(--vscode-editor-background);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.content{
+  padding: 10px;
+
+}
+.author {
+  background-color: #6e6e6e09;
+  padding: 10px;
+  border-radius: 7.5px;
+}
+
+
+.ZhihuLogo {
+  fill: #7a7a7a23;
+  width:10px;
+  display: none;
+}
+button#favorite,
+button#share,
+button#open {
+  float: right;
+  margin-right: 20px;
+  min-width: 0;
+  border-style: none;
+  font-size: 13px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #6e6e6e09;
+
+}
+svg.Zi.Zi--Share.Button-zi {
+  fill: var(--vscode-textLink-foreground);
+  margin-top: 2px;
+}
+
+svg.Zi.Zi--Star.Button-zi {
+  vertical-align: bottom;
+  fill: var(--vscode-textLink-foreground);
+}
+
+svg.Zi.Zi--LabelSpecial {
+  fill: var(--vscode-textLink-foreground);
+  height: 20px;
+  right: 8px;
+  position: relative;
+}
+
+.title {
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+  background-color: var(--vscode-textLink-activeForeground);
+  transition: all .3s ease;
+
+}
+
+button:hover {
+  cursor: pointer;
+  /* background-color:var(--vscode-textLink-activeForeground); */
+  box-shadow: 0 2px 5px 1px #83838352;
+  opacity: .8;
+  transform: translateY(-2px);
+  transition: all .3s ease;
+}
+.voteup-btn{
+  background-color:var(--vscode-textLink-foreground);
+  color:#fff;
+  padding: 10px;
+  border-radius: 5px;
 }
